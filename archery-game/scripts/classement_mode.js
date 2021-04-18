@@ -159,7 +159,7 @@ function redirectScore() {
 }
 
 function addScoreAndTimerInURL() {  
-  window.location.href = "tableau_des_scores.php?score=" + totalPoints+ "&isTooLate=" + isTooLate;
+  window.location.href = "tableau-des-scores.php?score=" + totalPoints+ "&isTooLate=" + isTooLate;
 }
 
 function showImpactPoints() {	
