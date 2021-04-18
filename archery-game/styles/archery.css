@@ -1,0 +1,79 @@
+#cible {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+#yellowCircle {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: #EDEA55;
+    border-radius: 50%;	
+}
+#redCircle {
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	background: #EC6666;
+	border-radius: 50%;	
+}
+#blueCircle {
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	background: #5899D2;
+    border-radius: 50%;    
+    border: 1px rgb(9, 110, 197) solid;	
+}
+
+#userImpact {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+}
+
+
+
+#userCursor {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	z-index: 1;
+	cursor : crosshair;
+}
+
+
+
+#windLeft {
+    width: 20px;
+    height: 12px;
+    background-color: rgb(47, 115, 218);
+    clip-path: polygon(100% 100%, 100% 0, 0 50%);
+}
+
+#windRight {	
+    width: 20px;
+    height: 12px;
+    background-color: rgb(47, 115, 218);
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+}
+
+.red {
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+}
+.green {
+  font-size: 20px;
+  font-weight: bold;
+  color: green;
+}
+.blue {
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
+}
